@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://localhost'
 languageCode = 'en-us'
 title = 'Mitchell Kijurina Portfolio'
 theme        = "hello-friend-ng"
@@ -13,19 +13,19 @@ paginate     = 10
 
   
   # Subtitle for home
-  homeSubtitle = "4th Year computer science student"
+  homeSubtitle = "4th Year computer science student studying at the University of Technology"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
 
   # Enable sharing buttons, if you like
-  enableSharingButtons = true
+  enableSharingButtons = false
   
   # Show a global language switcher in the navigation bar
-  enableGlobalLanguageMenu = true
+  enableGlobalLanguageMenu = false
 
   # Metadata mostly used in document's head
-  description = "My new homepage or blog"
+  description = "Homepage"
   keywords = "homepage, blog"
   images = [""]
 
@@ -43,10 +43,10 @@ paginate     = 10
     readOtherPosts = "Read other posts"
 
   [languages.en.params]
-    subtitle  = "A simple theme for Hugo"
+   
 
     [languages.en.params.logo]
-      logoText = "Portfolio home"
+      logoText = "Print('Return 2 Home')"
       logoHomeLink = "/"
 
     # path = "/img/your-example-logo.svg"
@@ -54,6 +54,6 @@ paginate     = 10
 
 
   [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
+    identifier = "Articles"
+    name       = "Articles"
     url        = "/posts"
