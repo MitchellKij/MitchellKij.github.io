@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Mitchell Kijurina Portfolio</title>
-        <link>https://example.org/posts/</link>
+        <link>https://localhost/posts/</link>
         <description>Recent content in Posts on Mitchell Kijurina Portfolio</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
         <lastBuildDate>Sat, 03 Feb 2024 22:02:25 +1100</lastBuildDate>
-        <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://localhost/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>Setting Up This Site</title>
-            <link>https://example.org/posts/about/</link>
+            <link>https://localhost/posts/sitesetup/</link>
             <pubDate>Sat, 03 Feb 2024 22:02:25 +1100</pubDate>
             
-            <guid>https://example.org/posts/about/</guid>
+            <guid>https://localhost/posts/sitesetup/</guid>
             <description>Background This site was created to home portfolio projects and interesting topics I want to go over.
 Creation The site was created using Hugo and the theme hello-friend-ng
 Hugo was chosen due to the ease of use to setup and configure, as well as the ease of markdown to create posts like these, similarly the theme chosen was due to it&amp;rsquo;s ease to setup and to understand, where only the main current change as of writing this peice is the removal of the social and sharing icons.</description>
@@ -23,6 +23,12 @@ Hugo was chosen due to the ease of use to setup and configure, as well as the ea
 <h3 id="creation">Creation</h3>
 <p>The site was created using <a href="https://gohugo.io/">Hugo</a> and the theme <a href="https://themes.gohugo.io/themes/hugo-theme-hello-friend-ng/">hello-friend-ng</a></p>
 <p>Hugo was chosen due to the ease of use to setup and configure, as well as the ease of markdown to create posts like these, similarly the theme chosen was due to it&rsquo;s ease to setup and to understand, where only the main current change as of writing this peice is the removal of the social and sharing icons.</p>
+<p>Hugo was one of a few decisions, the alternative being looked at was Jekyll, but due to my personal disinterest in looking at Ruby and wanting to better understand basic web development, Hugo was chosen instead :)</p>
+<p>Although not simple entirely, the ease of Hugo for my purpose made it a fitting choice, with minimal setup, easy to follow documentation, and a few good tutorial on youtube to understand what&rsquo;s happening in the background, I would recommend this to others.</p>
+<p>Creating new content for the page being added to the articles section is simple created using the below command.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>hugo new content posts/&lt;<span style="color:#f92672">pagename.md</span>&gt;
+</span></span></code></pre></div><h3 id="future-of-this-site">Future of this site</h3>
+<p>Moving along, I hope to use this site to showcase personal projects, and University assignments which I&rsquo;m allowed to go over.</p>
 ]]></content>
         </item>
         

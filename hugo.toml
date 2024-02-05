@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Mitchell Kijurina Portfolio'
 theme        = "hello-friend-ng"
 
-paginate     = 10
+enableRobotsTXT = true
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -46,14 +46,19 @@ paginate     = 10
    
 
     [languages.en.params.logo]
-      logoText = "Print('Return 2 Home')"
+      logoText = "Print('Return Home')"
       logoHomeLink = "/"
 
     # path = "/img/your-example-logo.svg"
     # alt = "Your example logo alt text"
 
 
+[menu]
   [[menu.main]]
-    identifier = "Articles"
-    name       = "Articles"
-    url        = "/posts"
+    identifier = "about"
+    name       = "About me"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Blog"
+    url        = "posts/"

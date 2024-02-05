@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Misc on Mitchell Kijurina Portfolio</title>
-    <link>https://example.org/tags/misc/</link>
+    <link>https://localhost/tags/misc/</link>
     <description>Recent content in Misc on Mitchell Kijurina Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Sat, 03 Feb 2024 22:02:25 +1100</lastBuildDate>
-    <atom:link href="https://example.org/tags/misc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://localhost/tags/misc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting Up This Site</title>
-      <link>https://example.org/posts/about/</link>
+      <link>https://localhost/posts/sitesetup/</link>
       <pubDate>Sat, 03 Feb 2024 22:02:25 +1100</pubDate>
-      <guid>https://example.org/posts/about/</guid>
+      <guid>https://localhost/posts/sitesetup/</guid>
       <description>Background This site was created to home portfolio projects and interesting topics I want to go over.&#xA;Creation The site was created using Hugo and the theme hello-friend-ng&#xA;Hugo was chosen due to the ease of use to setup and configure, as well as the ease of markdown to create posts like these, similarly the theme chosen was due to it&amp;rsquo;s ease to setup and to understand, where only the main current change as of writing this peice is the removal of the social and sharing icons.</description>
     </item>
   </channel>
