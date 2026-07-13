@@ -1,0 +1,87 @@
+description: Endpoint management, automation, and platform operations experience from Mitchell Kijurina.
+keywords:
+  - endpoint management
+  - automation
+  - platform operations
+  - Intune
+  - SCCM
+  - PowerShell
+defaultAuthor: Mitchell Kijurina
+language: en-AU
+shortName: Mitchell Kijurina
+
+favicon:
+  svg: /favicon.svg
+
+author:
+  name: Mitchell Kijurina
+  title: Endpoint management, automation, and platform operations
+  description: Technical Support Analyst at the University of Technology Sydney, working across application deployment, endpoint management, and automation for 1,500+ SCCM teaching lab devices and 5,000+ Intune-managed endpoints.
+  social:
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/mitchell-kijurina-1932bb1a3
+      icon: linkedin
+
+header:
+  sticky: false
+  logo:
+    image: ""
+    link: /
+  showThemeSwitch: false
+  showDarkModeSwitch: true
+  showContentWidthSwitch: false
+  showLanguageSwitch: false
+
+dock: scroll
+contentWidth: 56rem
+
+toc:
+  enabled: false
+  position: center
+
+colorScheme: slate
+themes:
+  slate:
+    name: Slate
+    order: 1
+
+home:
+  recentPostsCount: 3
+  contentOrder:
+    - author-section
+    - page-content
+    - recent-posts
+
+post:
+  showRelated: false
+  relatedPostsCount: 0
+  license:
+    show: false
+
+comments:
+  enabled: false
+
+analytics:
+  enabled: false
+
+katex:
+  enabled: false
+
+mermaid:
+  enabled: false
+
+gallery:
+  enabled: false
+
+lightbox:
+  enabled: false
+
+readingProgress:
+  enabled: false
+  showOnHomepage: false
+
+dateFormat:
+  full: :date_full
+  long: 2 January 2006
+  medium: 2 Jan 2006
+  short: 02/01

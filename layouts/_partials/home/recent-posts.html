@@ -1,0 +1,12 @@
+{{- $recentPostsCount := .Site.Params.home.recentPostsCount | default 3 -}}
+{{- $posts := where .Site.RegularPages "Section" "blog" | first $recentPostsCount -}}
+
+{{ if $posts }}
+  {{ partial "content/post-list.html" (dict
+    "posts" $posts
+    "title" "Recent writing"
+    "showTitle" true
+    "showViewAll" true
+    "viewAllUrl" ("/blog/" | relLangURL)
+  ) }}
+{{ end }}

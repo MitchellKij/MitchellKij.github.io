@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <div class="mx-auto py-6">
+    <header class="mb-8">
+      <h1 class="text-foreground mb-4 text-3xl font-bold">{{ .Title }}</h1>
+      {{ with .Description }}
+        <p class="text-muted-foreground">{{ . }}</p>
+      {{ end }}
+    </header>
+
+    {{ $pages := .Paginator.Pages }}
+    {{ if $pages }}
+      <div class="space-y-4">
+        {{ range $pages }}
+          {{ partial "content/card-base.html" (dict "page" .) }}
+        {{ end }}
+      </div>
+      {{ partial "navigation/pagination.html" . }}
+    {{ else }}
+      <p class="text-muted-foreground py-8">No articles published yet.</p>
+    {{ end }}
+  </div>
+{{ end }}

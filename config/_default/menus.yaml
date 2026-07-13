@@ -1,0 +1,19 @@
+main:
+  - name: Experience
+    pageRef: /experience
+    weight: 10
+
+  - name: Blog
+    pageRef: /blog
+    weight: 20
+
+  - name: About
+    pageRef: /about
+    weight: 30
+
+social:
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/mitchell-kijurina-1932bb1a3
+    weight: 10
+    params:
+      icon: linkedin

@@ -1,0 +1,67 @@
+{{- $currentPage := . -}}
+
+<header class="site-header">
+  <div class="site-header__bar">
+    <a class="site-header__brand" href="{{ site.Home.RelPermalink }}">
+      {{ site.Title }}
+    </a>
+
+    <nav class="site-header__desktop-nav" aria-label="Primary navigation">
+      {{ range site.Menus.main }}
+        {{- $menuURL := .URL -}}
+        {{- if .PageRef -}}
+          {{- with site.GetPage .PageRef -}}
+            {{- $menuURL = .RelPermalink -}}
+          {{- else -}}
+            {{- $menuURL = .URL | relLangURL -}}
+          {{- end -}}
+        {{- end -}}
+        {{- $isActive := hasPrefix $currentPage.RelPermalink $menuURL -}}
+        <a
+          class="site-header__link{{ if $isActive }} is-active{{ end }}"
+          href="{{ $menuURL }}"
+          {{ if $isActive }}aria-current="page"{{ end }}
+        >
+          {{ .Name }}
+        </a>
+      {{ end }}
+    </nav>
+
+    <div class="site-header__controls">
+      {{ partial "ui/dark-mode-switcher.html" . }}
+      <div class="site-header__mobile-toggle">
+        {{ partial "navigation/mobile-menu-toggle.html" . }}
+      </div>
+    </div>
+  </div>
+
+  <div
+    id="mobile-nav-panel"
+    class="site-header__mobile-panel hidden md:hidden"
+    role="navigation"
+    aria-label="Primary navigation"
+    aria-hidden="true"
+    tabindex="-1"
+  >
+    <nav>
+      {{ range site.Menus.main }}
+        {{- $menuURL := .URL -}}
+        {{- if .PageRef -}}
+          {{- with site.GetPage .PageRef -}}
+            {{- $menuURL = .RelPermalink -}}
+          {{- else -}}
+            {{- $menuURL = .URL | relLangURL -}}
+          {{- end -}}
+        {{- end -}}
+        {{- $isActive := hasPrefix $currentPage.RelPermalink $menuURL -}}
+        <a
+          class="nav-panel-link site-header__mobile-link{{ if $isActive }} is-active{{ end }}"
+          href="{{ $menuURL }}"
+          {{ if $isActive }}aria-current="page"{{ end }}
+        >
+          {{ .Name }}
+        </a>
+      {{ end }}
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,114 @@
+.site-header {
+  position: static;
+  padding: 1.25rem 1rem 0;
+}
+
+.site-header__bar {
+  display: flex;
+  min-height: 3rem;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.site-header__brand {
+  color: var(--color-foreground);
+  font-size: 1rem;
+  font-weight: 650;
+  letter-spacing: -0.015em;
+  text-decoration: none;
+}
+
+.site-header__brand:hover,
+.site-header__brand:focus-visible {
+  color: var(--color-primary);
+}
+
+.site-header__desktop-nav {
+  display: none;
+  align-items: center;
+  gap: 0.25rem;
+  margin-left: auto;
+}
+
+.site-header__link,
+.site-header__mobile-link {
+  color: var(--color-muted-foreground);
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.site-header__link {
+  padding: 0.5rem 0.625rem;
+  border-bottom: 1px solid transparent;
+}
+
+.site-header__link:hover,
+.site-header__link:focus-visible,
+.site-header__link.is-active,
+.site-header__mobile-link:hover,
+.site-header__mobile-link:focus-visible,
+.site-header__mobile-link.is-active {
+  color: var(--color-primary);
+}
+
+.site-header__link.is-active {
+  border-bottom-color: var(--color-primary);
+}
+
+.site-header__brand:focus-visible,
+.site-header__link:focus-visible,
+.site-header__mobile-link:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+.site-header__controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: auto;
+}
+
+.site-header .dropdown-toggle {
+  transition: color 150ms ease, background-color 150ms ease, border-color 150ms ease;
+  scale: 1;
+}
+
+.site-header .dropdown-toggle:hover,
+.site-header .dropdown-toggle:active {
+  scale: 1;
+}
+
+.site-header__mobile-panel {
+  padding: 0.5rem 0 0.75rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.site-header__mobile-panel nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.site-header__mobile-link {
+  display: block;
+  padding: 0.625rem 0.5rem;
+  border-radius: 0.375rem;
+}
+
+@media (min-width: 48rem) {
+  .site-header__desktop-nav {
+    display: flex;
+  }
+
+  .site-header__controls {
+    margin-left: 0;
+  }
+
+  .site-header__mobile-toggle {
+    display: none;
+  }
+}

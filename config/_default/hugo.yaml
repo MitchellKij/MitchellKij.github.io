@@ -1,0 +1,56 @@
+baseURL: https://mitchellkij.github.io/
+languageCode: en-AU
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+title: Mitchell Kijurina
+
+enableRobotsTXT: true
+enableEmoji: false
+
+mainSections:
+  - blog
+
+permalinks:
+  blog: /blog/:slug/
+  pages: /:slug/
+
+pagination:
+  pagerSize: 6
+  path: page
+
+taxonomies:
+  tag: tags
+
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
+    ordered: false
+  goldmark:
+    renderer:
+      unsafe: false
+  highlight:
+    codeFences: true
+    guessSyntax: false
+    lineNos: false
+    noClasses: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+    - WebAppManifest
+
+outputFormats:
+  WebAppManifest:
+    mediaType: application/manifest+json
+    baseName: site
+    isPlainText: true
+
+module:
+  hugoVersion:
+    extended: true
+    min: 0.158.0
+  imports:
+    - path: github.com/tom2almighty/hugo-narrow
