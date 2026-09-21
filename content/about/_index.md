@@ -14,7 +14,7 @@ I completed a Bachelor of Computing Science (Honours) at the University of Techn
 ## Technical domains
 
 - **Endpoint platforms:** Microsoft Intune and SCCM.
-- **Endpoint capabilities:** Windows Autopilot, SOE management, Application packaging, Active Directory, Compliance, Endpoint Security and Group Policy.
+- **Endpoint capabilities:** Windows Autopilot, SOE management, Application packaging, Active Directory, Device compliance, Endpoint Security and Group Policy.
 - **Automation and delivery:** PowerShell and Microsoft Graph API automation, with infrastructure delivery using Terraform, Ansible, GitHub Actions and Kubernetes.
 - **Monitoring:** Prometheus, Grafana, New Relic and Uptime Kuma, with NRQL and PromQL for dashboards and incident triage.
 - **Platforms and workflow:** Windows, macOS and Linux, with Jira, ServiceNow and Confluence for delivery, support and documentation.

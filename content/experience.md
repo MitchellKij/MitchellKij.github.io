@@ -89,9 +89,11 @@ skills:
     items:
       - Windows Autopilot
       - SOE management
-      - application packaging
+      - Application packaging
       - Active Directory
       - Group Policy
+      - Compliance
+      - Endpoint Security
   - category: Automation and delivery
     items:
       - PowerShell
