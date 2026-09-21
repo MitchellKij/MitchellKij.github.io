@@ -1,18 +1,18 @@
 ---
 title: Mitchell Kijurina
-description: Endpoint management, automation, and platform operations experience from Mitchell Kijurina.
+description: Mitchell Kijurina, Senior Technical Support Analyst in Desktop Engineering at UTS, specialising in endpoint management, compliance and automation.
 ---
 
 ## Current focus
 
-### Endpoint platforms
+### Endpoint engineering
 
-Administering Intune and SCCM across teaching and staff environments, including Autopilot, application packaging, device configuration, compliance policies, group policy, and proactive remediations. Current work includes leading a CIS Level 1 device compliance project.
+I administer Intune and SCCM across teaching and staff environments, including Autopilot provisioning, application packaging, SOE management, configuration profiles, Group Policy, compliance policies and proactive remediation scripts. I also lead a CIS Level 1 device compliance project.
 
 ### Automation and service delivery
 
-Building PowerShell and Microsoft Graph automation for application deployment and device lifecycle operations, alongside ServiceNow catalogue workflows for mass deployment requests.
+I lead Intune automation using Microsoft Graph API and build PowerShell scripts for application deployment and device lifecycle operations, alongside ServiceNow catalogue workflows for mass deployment requests.
 
 ### Observability and platform operations
 
-Earlier work covered monitoring and infrastructure delivery with Prometheus, New Relic, Grafana, Terraform, Ansible, Kubernetes, and GitHub Actions, including migrating Uptime Kuma from legacy synthetic monitors into a Kubernetes environment.
+My earlier work covered monitoring and infrastructure delivery with Prometheus, New Relic, Grafana, Terraform, Ansible, Kubernetes and GitHub Actions. I containerised Uptime Kuma and deployed it to Kubernetes to replace legacy New Relic synthetic monitors.
